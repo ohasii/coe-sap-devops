@@ -1,0 +1,12 @@
+name: StartSAPEnvironment
+on:
+  workflow_dispatch:
+  
+jobs:
+  Initialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Initializin
+        run: echo Hello, world!
+        
+        
